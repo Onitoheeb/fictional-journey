@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair:ital,wght@1,300&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair:ital,wght@1,300&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair:ital,wght@1,300&family=Roboto+Slab:wght@500&display=swap');
+.legacy{
+  font-family: 'Signika', sans-serif;
+}
+p{
+  font-family: 'Signika', sans-serif;
+}
+.welcoming{
+  font-family: 'Signika', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+}
+h1{
+font-family: 'Playfair', serif;
+}
+.nefont{
+  font-family: 'Signika', sans-serif;
+}
+img{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+body {
+    font-size: 15pt;
+}
+.navbar-brand{
+  font-weight: bolder;
+}
+nav{
+  background: #63A69F;
+}
+.nav-link:active{
+  color: white !important;
+  border-bottom: 2px solid white !important;
+}
+.nav-link:hover{
+  color: white !important;
+  border-bottom: 2px solid white !important;
+}
+a{
+  box-sizing: border-box;
+  border-top: white;
+  border-bottom: white;
+  color: black;
+}
+.welcome{
+  background: url(/img/latest-upload.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.join{
+  text-align: center;
+  padding: 10px 0 10px 0;
+  color: #63A69F;
+  font-family: 'Roboto Slab', serif;
+}
+.field{
+  background: #63A69F;
+  color: white
+}
+.product-img{
+  height: 12rem !important;
+}
+.btn{
+  background: #63A69F !important;
+  color: white !important;
+}
+h1{
+  font-weight: bold;
+}
+.products{
+  -webkit-line-clamp: 6;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-top: 5px;
+}
+.card-img-top{
+  width: 400px;
+  height: 200px;
+  object-fit: contain;
+}
+.nurtured{
+  background: #63A69F;
+}
+/* Flexbox container */
+.grandmother {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* FLEXBOX ITEM SETTINGS */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .item {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+.item {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+.item {
+  flex-basis: 32%;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+.item {
+  flex-basis: 32%;
+  flex-shrink: 0;
+  border-radius: 5px;
+  }
+}
+.item:hover{
+  box-shadow: 5px 5px 5px gray;
+}
+/* FLEXBOX ITEM SETTINGS */
+.item{
+  border: 1px black;
+}
